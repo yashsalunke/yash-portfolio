@@ -5,30 +5,6 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'Yash Portfolio',
-      description: 'Full-stack React portfolio showcasing professional projects, skills, and experience. Features responsive design, smooth animations, contact form integration, and GitHub repository integration for live project showcase.',
-      technologies: ['React', 'JavaScript', 'CSS3', 'Responsive Design', 'GitHub Pages'],
-      link: 'https://github.com/yashsalunke/yash-portfolio',
-      image: '💼'
-    },
-    {
-      id: 2,
-      title: 'ASP.NET + Angular Full-Stack App',
-      description: 'Enterprise-grade full-stack application demonstrating backend (ASP.NET) and frontend (Angular) integration. Includes REST API architecture, data persistence, component-based UI, and material design patterns.',
-      technologies: ['ASP.NET', 'Angular', 'TypeScript', 'C#', 'Material UI'],
-      link: 'https://github.com/yashsalunke/ASP_DotNet_Angular',
-      image: '🏗️'
-    },
-    {
-      id: 3,
-      title: 'Face Recognition Based Attendance System (FRBAS)',
-      description: 'Machine learning project using Python for automated attendance tracking via facial recognition. Demonstrates computer vision, OpenCV integration, database design, and real-time processing capabilities.',
-      technologies: ['Python', 'OpenCV', 'Face Recognition', 'Machine Learning', 'Database'],
-      link: 'https://github.com/yashsalunke/FRBAS',
-      image: '�'
-    },
-    {
-      id: 4,
       title: 'PuraTrip - Android Travel App',
       description: 'Native Android application built with Kotlin featuring trip planning, destination discovery, and itinerary management. Demonstrates MVVM architecture, REST API integration, and material design patterns.',
       technologies: ['Kotlin', 'Android', 'MVVM Architecture', 'REST APIs', 'Material Design'],
@@ -36,20 +12,44 @@ function Projects() {
       image: '✈️'
     },
     {
-      id: 5,
-      title: 'Angular CRUD with Material UI',
-      description: 'Feature-rich Angular application demonstrating CRUD operations with Material Design components. Showcases reactive forms, data binding, component architecture, and modern UI patterns.',
-      technologies: ['Angular', 'TypeScript', 'Material UI', 'Reactive Forms', 'Bootstrap'],
-      link: 'https://github.com/yashsalunke/Angular_CRUD_MaterialUI',
+      id: 2,
+      title: 'Face Recognition Based Attendance System (FRBAS)',
+      description: 'Machine learning project using Python for automated attendance tracking via facial recognition. Demonstrates computer vision, OpenCV integration, database design, and real-time processing capabilities.',
+      technologies: ['Python', 'OpenCV', 'Face Recognition', 'Machine Learning', 'Database'],
+      link: 'https://github.com/yashsalunke/FRBAS',
       image: '�'
     },
     {
+      id: 3,
+      title: 'MapMitra',
+      description: 'Native Android application built with Kotlin showcasing location-based services and mapping integration. Demonstrates practical usage of map libraries, location permissions, and geolocation features.',
+      technologies: ['Kotlin', 'Android', 'Maps API', 'Location Services', 'Material Design'],
+      link: 'https://github.com/yashsalunke/MapMitra',
+      image: '🗺️'
+    },
+    {
+      id: 4,
+      title: 'MySocialPlatform',
+      description: 'Full-featured social networking application built with Kotlin for Android. Demonstrates user authentication, real-time messaging, feed functionality, and social interactions using modern Android architecture.',
+      technologies: ['Kotlin', 'Android', 'Firebase', 'Real-time DB', 'User Authentication'],
+      link: 'https://github.com/yashsalunke/MySocialPlatform',
+      image: '👥'
+    },
+    {
+      id: 5,
+      title: 'BookHub',
+      description: 'Android application for book discovery and management built with Kotlin. Features book search, library management, and user ratings. Demonstrates integration with book APIs and local persistence.',
+      technologies: ['Kotlin', 'Android', 'REST APIs', 'Room Database', 'Material Design'],
+      link: 'https://github.com/yashsalunke/BookHub',
+      image: '📚'
+    },
+    {
       id: 6,
-      title: 'GitHub Pages Portfolio',
-      description: 'Professional personal website built on GitHub Pages showcasing portfolio, projects, and professional presence. Serves as central hub for resume, live demos, and contact information.',
-      technologies: ['HTML5', 'CSS3', 'GitHub Pages', 'Responsive Design', 'SEO'],
-      link: 'https://github.com/yashsalunke/yashsalunke.github.io',
-      image: '🌐'
+      title: 'Rock Paper Scissors Game',
+      description: 'Interactive JavaScript game demonstrating fundamental web development concepts. Includes game logic, user interaction handling, score tracking, and responsive UI design.',
+      technologies: ['JavaScript', 'HTML5', 'CSS3', 'DOM Manipulation', 'Game Logic'],
+      link: 'https://github.com/yashsalunke/RockPaperScissorGame',
+      image: '�'
     }
   ];
 
